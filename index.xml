@@ -170,7 +170,6 @@ ul.menu .active .list a {
       <ul class="items">
          <li> <a href="#" > Item 2-1 </a></li>
          <li> <a href="#" > Item 2-2 </a></li>
-         <li> <a href="#" > Item 2-3 </a></li>
       </ul>
    </li>
   
