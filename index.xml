@@ -1,4 +1,3 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -147,7 +146,6 @@ ul.menu .active .list a {
 </style>
 </head>
 <body>
-<link rel="stylesheet" type="text/css" href="font-awesome.min.css">
 
 <div id="container" style="width:100%;">
 
@@ -176,107 +174,6 @@ ul.menu .active .list a {
 </ul>
 
 </div>
-<div id="left" style="height:500px;width:320px;float:left;">
-<h1>编程强化</h1>
-<ul class="menu">
-   <li class="list"><a href="#" style="color: #FF0000;"> List 1 </a> 
-      <ul class="items">
-        <li><a href="http://www.runoob.com" target="iframe_a"> Item 1-1</a></li>
-         <li><a href="http://www.baidu.com"> Item 1-2</a></li>
-         <li><a href="#"> Item 1-3</a></li>
-     </ul>
-  </li>
-   <li class="list"><a href="#" style="color: #FF0000;">List 2</a> 
-      <ul class="items">
-         <li> <a href="#" > Item 2-1 </a></li>
-         <li> <a href="#" > Item 2-2 </a></li>
-         <li> <a href="#" > Item 2-3 </a></li>
-      </ul>
-   </li>
-   <li class="list"><a href="#" style="color: #FF0000;">List 3</a> 
-      <ul class="items">
-         <li> <a href="#" > Item 3-1 </a></li>
-         <li> <a href="#" > Item 3-2 </a></li>
-         <li> <a href="#" > Item 3-2 </a></li>
-      </ul>
-   </li>
-   <li class="list"><a href="#" style="color: #FF0000;">List 4</a> 
-      <ul class="items">
-         <li> <a href="#" > Item 4-1 </a></li>
-         <li> <a href="#" > Item 4-2 </a></li>
-      </ul>
-   </li>
-</ul>
-</div>
-	
-<div id="left" style="height:500px;width:320px;float:left;">
-<h1>前端技术</h1>
-<ul class="menu">
-   <li class="list"><a href="#" style="color: #FF0000;"> List 1 </a> 
-      <ul class="items">
-        <li><a href="#" style="color: #FF0000;"> Item 1-1</a></li>
-         <li><a href="#" style="color: #FF0000;"> Item 1-2</a></li>
-         <li><a href="#" style="color: #FF0000;"> Item 1-3</a></li>
-     </ul>
-  </li>
-   <li class="list"><a href="#" style="color: #FF0000;">List 2</a> 
-      <ul class="items">
-         <li> <a href="#" style="color: #FF0000;"> Item 2-1 </a></li>
-         <li> <a href="#" style="color: #FF0000;"> Item 2-2 </a></li>
-         <li> <a href="#" style="color: #FF0000;"> Item 2-3 </a></li>
-      </ul>
-   </li>
-   <li class="list"><a href="#" style="color: #FF0000;">List 3</a> 
-      <ul class="items">
-         <li> <a href="#" style="color: #FF0000;"> Item 3-1 </a></li>
-         <li> <a href="#" style="color: #FF0000;"> Item 3-2 </a></li>
-         <li> <a href="#" style="color: #FF0000;"> Item 3-2 </a></li>
-      </ul>
-   </li>
-   <li class="list"><a href="#" style="color: #FF0000;">List 4</a> 
-      <ul class="items">
-         <li> <a href="#" style="color: #FF0000;"> Item 4-1 </a></li>
-         <li> <a href="#" style="color: #FF0000;"> Item 4-2 </a></li>
-      </ul>
-   </li>
-</ul>
-
-</div>
-
-<div id="left" style="height:500px;width:320px;float:left;">
-<h1>技术框架</h1>
-<ul class="menu">
-   <li class="list"><a href="#"> List 1 </a> 
-      <ul class="items">
-        <li><a href="#"> Item 1-1</a></li>
-         <li><a href="#"> Item 1-2</a></li>
-         <li><a href="#"> Item 1-3</a></li>
-     </ul>
-  </li>
-   <li class="list"><a href="#">List 2</a> 
-      <ul class="items">
-         <li> <a href="#" > Item 2-1 </a></li>
-         <li> <a href="#" > Item 2-2 </a></li>
-         <li> <a href="#" > Item 2-3 </a></li>
-      </ul>
-   </li>
-   <li class="list"><a href="#">List 3</a> 
-      <ul class="items">
-         <li> <a href="#" > Item 3-1 </a></li>
-         <li> <a href="#" > Item 3-2 </a></li>
-         <li> <a href="#" > Item 3-2 </a></li>
-      </ul>
-   </li>
-   <li class="list"><a href="#">List 4</a> 
-      <ul class="items">
-         <li> <a href="#" > Item 4-1 </a></li>
-         <li> <a href="#" > Item 4-2 </a></li>
-      </ul>
-   </li>
-</ul>
-
-</div>
-
 
 <div id="kind" style="clear:both;height:50px;width:100%;">
 
