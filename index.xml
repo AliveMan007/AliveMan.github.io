@@ -184,7 +184,6 @@ ul.menu .active .list a {
       <ul class="items">
          <li> <a href="#" > Item 4-1 </a></li>
          <li> <a href="#" > Item 4-2 </a></li>
-         </li>
       </ul>
    </li>
    <li class="list"><a href="#" style="color: #FF0000;">List 5</a> 
