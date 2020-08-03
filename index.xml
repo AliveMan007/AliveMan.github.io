@@ -167,8 +167,8 @@ ul.menu .active .list a {
 </div>
 
 <script>
-var alist = document.querySelectorAll("li.list");
-for (var i = 0; i < alist.length; i++) {
+var alist = document.querySelectorAll(".list");
+for (var i=0; i<alist.length; i++) {
     alist[i].addEventListener("click", listAction);
 }
 
@@ -178,7 +178,7 @@ function listAction(e) {
         this.classList.remove("active");
     } 
 	else {
-       for (var j = 0; j < alist.length; j++) {
+       for (var j=0; j<alist.length; j++) {
            alist[j].classList.remove("active");
        }
        this.classList.add("active");
