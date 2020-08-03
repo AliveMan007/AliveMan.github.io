@@ -166,23 +166,28 @@ ul.menu .active .list a {
 </div>
 
 
-<script>
-var list = document.querySelectorAll('.list');
+<script type="text/javascript">
 
-function accordion(e) {
-    e.stopPropagation();
-    if (this.classList.contains('active')) {
-        this.classList.remove('active');
-    } else {
-       for (i = 0; i < list.length; i++) {
-       list[i].classList.remove('active');
-    }
-       this.classList.add('active');
-    }
-}
+var list = document.querySelectorAll(".list");
+
 for (i = 0; i < list.length; i++) {
-    list[i].addEventListener('click', accordion);
+    list[i].addEventListener('click', listAction);
 }
+
+function listAction(e) {
+    e.stopPropagation();
+    if (this.classList.contains("active")) {
+        this.classList.remove("active");
+    } 
+	else {
+       for (i = 0; i < list.length; i++) {
+           list[i].classList.remove("active");
+       }
+       this.classList.add("active");
+    }
+	
+}
+
 </script>
 </body>
 </html>
