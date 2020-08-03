@@ -3,7 +3,29 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>编程之道</title>
+<script type="text/javascript">
 
+var alist = document.querySelectorAll("li.list");
+for (i = 0; i < alist.length; i++) {
+    alist[i].addEventListener("click", listAction);
+}
+
+function listAction(e) {
+    e.stopPropagation();
+    if (this.classList.contains("active")) {
+        this.classList.remove("active");
+    } 
+	else {
+       for (i = 0; i < alist.length; i++) {
+           alist[i].classList.remove("active");
+       }
+       this.classList.add("active");
+    }
+	
+}
+</script>
+	
+	
 <style>
 body {
   padding: 0;
@@ -164,31 +186,5 @@ ul.menu .active .list a {
 </div>
 
 </div>
-
-
-<script type="text/javascript">
-
-var alist = document.querySelectorAll("li.list");
-for (i = 0; i < alist.length; i++) {
-    alist[i].addEventListener("click", listAction);
-}
-
-function listAction(e) {
-    e.stopPropagation();
-    if (this.classList.contains("active")) {
-        this.classList.remove("active");
-    } 
-	else {
-       for (i = 0; i < alist.length; i++) {
-           alist[i].classList.remove("active");
-       }
-       this.classList.add("active");
-    }
-	
-}
-
-
-
-</script>
 </body>
 </html>
