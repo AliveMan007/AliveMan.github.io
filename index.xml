@@ -2,7 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>编程之道</title>	
+<title>编程之道</title>
+
 <style>
 body {
   padding: 0;
@@ -109,28 +110,7 @@ ul.menu .active .list a {
   padding: 17px 0px 17px 45px;
 }
 </style>
-	
 
-<script type="text/javascript">
-var alist = document.querySelectorAll("li.list");
-for (i = 0; i < alist.length; i++) {
-    alist[i].addEventListener("click", listAction);
-}
-
-function listAction(e) {
-    e.stopPropagation();
-    if (this.classList.contains("active")) {
-        this.classList.remove("active");
-    } 
-	else {
-       for (i = 0; i < alist.length; i++) {
-           alist[i].classList.remove("active");
-       }
-       this.classList.add("active");
-    }
-	
-}
-</script>		
 </head>
 <body>
 
@@ -185,5 +165,26 @@ function listAction(e) {
 </div>
 
 </div>
+
+<script>
+var alist = document.querySelectorAll("li.list");
+for (var i = 0; i < alist.length; i++) {
+    alist[i].addEventListener("click", listAction);
+}
+
+function listAction(e) {
+    e.stopPropagation();
+    if (this.classList.contains("active")) {
+        this.classList.remove("active");
+    } 
+	else {
+       for (var j = 0; j < alist.length; j++) {
+           alist[j].classList.remove("active");
+       }
+       this.classList.add("active");
+    }
+	
+}
+</script>
 </body>
 </html>
