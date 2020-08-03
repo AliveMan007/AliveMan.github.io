@@ -168,7 +168,10 @@ ul.menu .active .list a {
 
 <script type="text/javascript">
 
-var alist = document.querySelectorAll(".list");
+var alist = document.querySelectorAll("li.list");
+for (i = 0; i < alist.length; i++) {
+    alist[i].addEventListener("click", listAction);
+}
 
 function listAction(e) {
     e.stopPropagation();
@@ -184,9 +187,7 @@ function listAction(e) {
 	
 }
 
-for (i = 0; i < alist.length; i++) {
-    alist[i].addEventListener("click", listAction);
-}
+
 
 </script>
 </body>
